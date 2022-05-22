@@ -1,0 +1,12 @@
+.selLa{
+  position: absolute;
+  top: -10px;
+  right: 20px;
+  font-size: 16px
+}
+.contModalLa{padding:30px 20px 30px 20px}
+.contModalLa p{margin:0px 10px 0px 10px;line-height: 40px}
+.selLa p, .contModalLa p{display: inline-block}
+.selLa p,.contModalLa p[data]{cursor: pointer}
+.selLa p:hover,.contModalLa p[data]:hover{text-decoration: underline}
+.selLa i{font-size: 12px; font-style:normal}

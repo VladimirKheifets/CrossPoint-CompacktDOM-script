@@ -1,0 +1,44 @@
+.modal{
+	position:absolute;
+	z-index:9999;
+	top:0;
+	left:0;
+	background-color: #ffffff;
+	border: 1px solid #85A0C9;
+	border-radius: 5px;
+	box-shadow:3px 3px 3px rgba(0, 0, 0, 0.5);	
+}
+
+.modal_content{	
+	display:table-cell;
+	text-align:center;
+	padding:40 20 20 20;
+	font-size:14pt;	
+}
+
+.modal_close{
+	font-family: Courier;
+	color:#aaa;
+	cursor:pointer;
+	font-size:50px;
+	position:absolute;
+	right:0px;
+	top:0px;
+	margin:-0.2em 0.3em 0 0;
+	caret-color:transparent;
+	width: 20px;
+}
+
+.modal_close:hover
+{color:#FFCCD9;caret-color:transparent;}
+
+.modal_gray_layer{
+	z-index: 9998;
+	position:fixed;
+	top:0px;
+	left:0px;
+	right: 0px;
+	bottom: 0px;
+	background: rgba(0, 0, 0, 0.1);
+	display:none;
+}
