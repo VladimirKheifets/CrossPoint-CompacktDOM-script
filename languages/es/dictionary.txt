@@ -1,0 +1,22 @@
+#title~Calcular el punto de cruce de dos líneas rectas o segmentos de línea
+#button~Ayuda~Red de encendido/apagado~Calcular con JS~Calcular con PHP~Solicitud/Respuesta de AJAX~Estructura de datos~Reiniciar
+#switch~CORTE RECTO~LÍNEA
+#points~punto de inicio~punto final
+#structure~Solicitud JSON
+
+~Teclas de segmentos de línea y rectas: 1,2
+Punto inicial 'a', punto final 'b':
+Xa,Ya, Xb,Yb - coordenadas absolutas
+Xad,Yad, Xbd,Ybd - coordenadas cartesianas
+Clave 'línea' - coordenadas de línea u objeto vacío
+Teclas 'ancho', 'alto' - ancho y alto
+del rectángulo (lienzo) que delimita el plano~
+
+Respuesta JSON
+
+CrossPointCheck clave:
+verdadero - punto de cruce encontrado,
+falso - cruce no encontrado
+Coordenadas del punto de cruce:
+X,Y - coordenadas absolutas
+Xd,Yd - coordenadas cartesianas
