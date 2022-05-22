@@ -1,1 +1,37 @@
-
+<div class='help'>
+<h1>計算兩條直線或線段的交點。</h1>
+<p>
+您可以在以矩形為界的平面上繪製兩條線段，然後
+計算它們的交點坐標。
+</p>
+<h2>1。在平面上繪製線段</h2>
+<p>
+在沒有觸摸屏的設備上，使用鼠標光標指示起點
+線段並按下鼠標左鍵，也表示終點。
+在觸摸屏設備上，觸摸每條線段的起點和終點。
+</p>
+<h2>2。起點和終點的坐標。</h2>
+<p>
+鼠標光標或屏幕手指觸摸坐標的坐標（只有正值）
+在全局坐標系中定義。
+坐標 (0,0) 的原點位於平面邊界矩形的左上角。
+x 軸從上到下，y 軸從左到右。
+對於每個線段，確定絕對坐標和笛卡爾坐標。
+笛卡爾坐標系的原點 (0,0) 位於平面邊界矩形的中心。
+</p>
+<h2>3。將線段轉換為直線。</h2>
+繪製兩條線段後，會出現單選按鈕：“直切” 和 “直線”。
+如果選中“直線”按鈕，則線段將轉換為直線通過
+通過兩個給定的點，直到它與邊界平面的矩形相交。
+</p>
+<h2>4。交點坐標的計算</h2>
+要計算交點，請單擊“用 JS 計算”或“用 PHP 計算”按鈕。
+如果按下“使用 PHP 計算”按鈕，AJAX-Request 將被發送到服務器
+和 AJAX 響應”將被接收。
+請求文件
+<a href="https://www.alto-booking.com/developer/crosspoint/crossPointRequest.json" target="_blank">
+crossPointRequest.json</a> 和響應文件
+<a href="https://www.alto-booking.com/developer/crosspoint/crossPointResponse.json" target="_blank">
+crossPointResponse.json</a> 將保存在服務器上。
+</p>
+</div>

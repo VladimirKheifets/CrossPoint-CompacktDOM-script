@@ -1,0 +1,22 @@
+#title~計算兩條直線或線段的交點
+#button~Help~On/Off grid~用JS計算~用PHP計算~AJAX請求/響應~數據結構~重置
+#switch~直切~直線
+#points~起點~終點
+#structure~JSON-請求
+
+~線段和直線的鍵：1,2
+起點“a”，終點“b”：
+Xa,Ya, Xb,Yb - 絕對坐標
+Xad,Yad, Xbd,Ybd - 笛卡爾坐標
+關鍵“line” - 線或空對象的坐標
+鍵 “width”, “height” - 寬度和高度
+包圍平面的矩形（畫布）的~
+
+JSON-響應
+
+關鍵 “crossPointCheck”:
+true - 找到交叉點，
+false - 未找到交叉口
+過境點坐標：
+X,Y - 絕對坐標
+Xd,Yd - 笛卡爾坐標
