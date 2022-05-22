@@ -1,0 +1,22 @@
+#title~Calcola il punto di intersezione di due rette o segmenti di linea
+#button~Aiuto~On/Off grid~Calcola con JS~Calcola con PHP~Richiesta/risposta AJAX~Struttura dati~Reimposta
+#switch~TAGLIO DRITTO~LINEA
+#points~punto iniziale~punto finale
+#structure~Richiesta JSON
+
+~Chiavi dei segmenti di linea e delle rette: 1,2
+Punto iniziale 'a', punto finale 'b':
+Xa,Ya, Xb,Yb - coordinate assolute
+Xad,Yad, Xbd,Ybd - coordinate cartesiane
+Tasto 'linea' - coordinate della linea o dell´oggetto vuoto
+Tasti 'larghezza', 'altezza' - larghezza e altezza
+del rettangolo (tela) che delimita il piano~
+
+Risposta JSON
+
+Chiave crossPointCheck:
+vero - punto di incrocio trovato,
+false - incrocio non trovato
+Coordinate del punto di passaggio:
+X,Y - coordinate assolute
+Xd,Yd - coordinate cartesiane

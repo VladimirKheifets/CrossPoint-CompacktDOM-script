@@ -1,1 +1,37 @@
-
+<div class='help'>
+<h1>Calcola il punto di intersezione di due rette o segmenti di linea.</h1>
+<p>
+Puoi disegnare due segmenti di linea su un piano delimitato da un rettangolo e
+calcolare le coordinate del loro punto di intersezione.
+</p>
+<h2>1. Disegnare i segmenti di linea su un piano.</h2>
+<p>
+Sul dispositivo senza touch screen, utilizzare il cursore del mouse per indicare il punto iniziale di
+il segmento di linea e premere il tasto sinistro del mouse, indicare anche il punto finale.
+Sui dispositivi touch screen, tocca i punti di inizio e di fine per ciascun segmento di linea.
+</p>
+<h2>2. Coordinate dei punti di inizio e fine.</h2>
+<p>
+Le coordinate (solo valori positivi) del cursore del mouse o delle coordinate del tocco del dito sullo schermo
+sono definiti nel sistema di coordinate globale.
+L'origine delle coordinate (0,0) si trova nell'angolo superiore sinistro del rettangolo che delimita il piano.
+L'asse x è diretto dall'alto verso il basso, l'asse y è da sinistra a destra.
+Per ogni segmento di linea vengono determinate le coordinate assolute e le coordinate cartesiane.
+L'origine (0,0) del sistema di coordinate cartesiane è al centro del rettangolo che delimita il piano.
+</p>
+<h2>3. Trasformare i segmenti di linea in una linea retta.</h2>
+Dopo aver disegnato due segmenti di linea, vengono visualizzati i pulsanti di opzione: "TAGLIO DRITTO" e "LINEA".
+Se si seleziona il pulsante "LINEA", il segmento di linea verrà trasformato in una retta passante
+per due punti dati finché non si interseca con un rettangolo che delimita il piano.
+</p>
+<h2>4. Calcolo delle coordinate del punto di intersezione.</h2>
+Per calcolare il punto di intersezione, fare clic sul pulsante "Calcola con JS" o "Calcola con PHP".
+Se viene premuto il pulsante "Calcola con PHP", la richiesta AJAX verrà inviata al server
+e AJAX-Response" saranno ricevuti.
+Il file di richiesta
+<a href="https://www.alto-booking.com/developer/crosspoint/crossPointRequest.json" target="_blank">
+crossPointRequest.json</a> e il file di risposta
+<a href="https://www.alto-booking.com/developer/crosspoint/crossPointResponse.json" target="_blank">
+crossPointResponse.json</a> verrà salvato sul server.
+</p>
+</div>
