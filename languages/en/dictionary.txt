@@ -1,0 +1,22 @@
+#title~Calculate crossing point of two straight lines or line segments
+#button~Help~On/Off grid~Calculate with JS~Calculate with PHP~AJAX Request/Response~Data structure~Reset
+#switch~LINE SEGMENT~LINE
+#points~start point~end point
+#structure~JSON-Request
+
+~Keys of line segments and straight lines: 1,2
+Start point 'a', end point 'b':
+Xa,Ya, Xb,Yb - absolute coordinates
+Xad,Yad, Xbd,Ybd - cartesian coordinates
+Key 'line' - coordinates of line or empty object
+Keys 'width', 'height' - width and height
+of the rectangle (canvas) bounding the plane~
+
+JSON-Response
+
+Key crossPointCheck:
+true - crossing point found,
+false - crossing not found
+Crossing point coordinates:
+X,Y - absolute coordinates
+Xd,Yd - cartesian coordinates

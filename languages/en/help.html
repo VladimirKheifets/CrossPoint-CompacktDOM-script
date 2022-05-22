@@ -1,1 +1,37 @@
-ddd
+<div class='help'>
+<h1>Calculate crossing point of two straight lines or line segments.</h1>
+<p>
+You can draw two line segments on a plane bounded by a rectangle and
+calculate the coordinate of their intersection point.
+</p>
+<h2>1. Drawing the line segments on a plane.</h2>
+<p>
+On device without a touch screen, use the mouse cursor to indicate the starting point of
+the line segment and press the left mouse button, also indicate the end point.
+On touch screen devices, touch the start and end points for each line segment.
+</p>
+<h2>2. Coordinates of start and end points.</h2>
+<p>
+The coordinates (only positive values) of the mouse cursor or screen finger touch coordinate
+are defined in the global coordinate system.
+The origin of the coordinates (0,0) is located in the upper left corner of the rectangle bounding the plane.
+The x-axis is directed from top to bottom, the y-axis is from left to right.
+For each line segment, absolute coordinates and Cartesian coordinates are determined.
+The origin (0,0) of the Cartesian coordinate system is at the center of the rectangle bounding the plane.
+</p>
+<h2>3. Transforming the line segments to a straight line.</h2>
+After two line segments are drawn, radio buttons appear: "LINE SEGMENT" and "LINE".
+If you check the "LINE" button, then the line segment will be transformed into a straight line passing
+through two given points until it intersects with a rectangle bounding the plane.
+</p>
+<h2>4. Calculation of the coordinates of the intersection point.</h2>
+To calculate the intersection point, click the "Calculate with JS"  or "Calculate with PHP" button.
+If the "Calculate with PHP" button is pressed, AJAX-Request will be sent to the server
+and AJAX-Response" will be received.
+The request file
+<a href="https://www.alto-booking.com/developer/crosspoint/crossPointRequest.json" target="_blank">
+crossPointRequest.json</a> and response file
+<a href="https://www.alto-booking.com/developer/crosspoint/crossPointResponse.json" target="_blank">
+crossPointResponse.json</a> will be saved on the server.
+</p>
+</div>
