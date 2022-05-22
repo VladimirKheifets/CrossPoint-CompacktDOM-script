@@ -1,0 +1,22 @@
+#title~Calculer le point d'intersection de deux lignes droites ou segments de ligne
+#button~Aide~Activer/Désactiver la grille~Calculer avec JS~Calculer avec PHP~Requête/Réponse AJAX~Structure des données~Réinitialiser
+#switch~COUPE DROITE~LIGNE
+#points~point de départ~point de fin
+#structure~Demande JSON
+
+~Clés des segments de ligne et des lignes droites: 1,2
+Point de départ 'a', point final 'b' :
+Xa,Ya, Xb,Yb - coordonnées absolues
+Xad,Yad, Xbd,Ybd - coordonnées cartésiennes
+Clé 'ligne' - coordonnées de la ligne ou de l'objet vide
+Touches 'largeur', 'hauteur' - largeur et hauteur
+du rectangle (toile) délimitant le plan~
+
+Réponse JSON
+
+Clé crossPointCheck:
+vrai - point de passage trouvé,
+faux - passage introuvable
+Coordonnées du point de passage:
+X,Y - coordonnées absolues
+Xd,Yd - coordonnées cartésiennes
