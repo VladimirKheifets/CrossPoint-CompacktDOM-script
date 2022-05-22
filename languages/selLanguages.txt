@@ -1,2 +1,7 @@
-
-dddd
+#de~Deutsch
+#en~English
+#es~Español
+#fr~Français
+#it~Italiano
+#ru~Русский
+#zh~中文
