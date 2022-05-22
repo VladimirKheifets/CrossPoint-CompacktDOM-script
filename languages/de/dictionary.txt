@@ -1,0 +1,22 @@
+#title~Schnittpunkt zweier gerader Linien oder Liniensegmente berechnen
+#button~Help~On/Off grid~Berechnen mit JS~Berechnen mit PHP~AJAX Request/Response~Datenstruktur~Zurücksetzen
+#switch~GERADE SCHNITT~LINIE
+#points~Startpunkt~Endpunkt
+#structure~JSON-Request
+
+~Schlüssel von Liniensegmenten und geraden Linien: 1,2
+Startpunkt 'a', Endpunkt 'b':
+Xa,Ya, Xb,Yb - absolute Koordinaten
+Xad,Yad, Xbd,Ybd - kartesische Koordinaten
+Schlüssel 'Linie' - Koordinaten der Linie oder des leeren Objekts
+Tasten 'Breite', 'Höhe' - Breite und Höhe
+des Rechtecks (Leinwand), das die Ebene begrenzt~
+
+JSON-Antwort
+
+Schlüssel crossPointCheck:
+true - Kreuzungspunkt gefunden,
+false - Kreuzung nicht gefunden
+Koordinaten des Kreuzungspunkts:
+X,Y - absolute Koordinaten
+Xd,Yd - kartesische Koordinaten
