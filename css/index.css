@@ -1,0 +1,123 @@
+body{font-family: arial;font-size: 14px;color: #5B5B5B}
+
+header, footer{
+  font-weight: normal;
+  width: 100%;
+  text-align: center;
+}
+
+header h1{
+  font-size: 20px;
+  padding: 10px 0 10px 0;
+  margin: 0;
+}
+
+footer{
+  margin-top: 20px;
+  text-align: center;
+  font-size: 18px;
+  position: relative
+}
+
+footer p{display: inline;font-size: 14px}
+
+nav{
+  position: absolute;
+  width: auto;
+  height: auto;
+  left: 10px;
+  top: 80px;
+  display: table-cell;
+  background-color: #FFF4F2;
+  z-index: 5
+}
+
+nav button{
+  width: 170px;
+  display: block;
+  cursor: pointer;
+  margin:2px 0 2px 0;
+  padding: 2px 0px 2px 0px;
+  line-height: 20px
+}
+
+nav + p{
+  position: absolute;
+  left: 10px;
+  top: 300px;
+  width: 180px;
+  max-height: 55px;
+  background-color: white;
+  border: 1px solid #85A0C9;
+  border-radius: 5px;
+  box-shadow:3px 3px 3px rgba(0, 0, 0, 0.5);
+  margin-top: 20px;
+  text-align: center;
+  padding: 10px;
+  line-height: 18px;
+  background-color: #FFF4F2;
+  z-index: 5
+}
+
+main{
+  position: relative;
+  margin:0 auto;
+  line-height: 25px;
+  display: block;
+}
+
+header div{text-align: center}
+
+canvas{
+  border:1px solid #ddd;
+  position: absolute;
+  left: 0px;
+  top: 10px;
+  background-color: transparent;
+  cursor: crosshair;
+}
+
+span{display: inline-block; width:240px; text-align: left;margin-left: 40px}
+
+.help, .outPr{
+  font-family: arial;
+  font-size: 14px;
+  padding: 20px;
+  text-align: left
+}
+
+.help{width: 800px}
+.outPr{width: 720px;padding: 30px 30px 30px 50px}
+#menu{position: absolute;top: 0px;cursor: none}
+
+
+.outPr h1{font-size: 18px; font-weight: normal}
+.outPr h2{font-size: 16px; font-weight: normal}
+.outPr div{
+  position: absolute;
+  top: 100px;
+  right: 50px;
+  width: 350px !important;
+  width: 200px;
+  padding: 30px 30px;
+  border: 1px dotted #aaa;
+  border-radius: 3px;
+  display: block;
+  background-color: #FFF4F2;
+  box-shadow:3px 3px 3px rgba(0, 0, 0, 0.5);
+  line-height: 18px;
+  font-size: 14px;
+  word-wrap: break-word;
+  white-space: pre-line;
+}
+
+@media only screen and (max-width: 800px) {
+  .help{ width: calc(100vw - 45px)}
+  .outPr{ width: calc(100vw - 25px);padding: 10px 10px 10px 10px }
+  header h1{margin-top: 20px}
+  .outPr div{ width: 150px !important;right: 10px;top: 30px;padding: 10px 10px}
+}
+
+.help p{font-size: 14px;text-align: justify;}
+.help h1{font-size: 18px;font-size: normal;margin-top: 20px;}
+.help h2{font-size: 16px; font-size: normal}
